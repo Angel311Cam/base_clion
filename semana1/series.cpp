@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int num1;
+    int num2;
+    int suma;
+    int resta;
+    int multiplicacion;
+
+    cout << "Angel Campos" << endl;
+
+    cout << "Ingrese el primer numero: ";
+    cin >> num1;
+
+    cout << "Ingrese el segundo numero: ";
+    cin >> num2;
+
+    suma = num1 + num2;
+    resta = num1 - num2;
+    multiplicacion = num1 * num2;
+
+    cout << "La suma es: " << suma << endl;
+    cout << "La resta es: " << resta << endl;
+    cout << "La multiplicacion es: " << multiplicacion << endl;
+
+    return 0;
+}
